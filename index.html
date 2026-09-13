@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew Haven Coffee Co. - Artisan Coffee & Pastries</title>
+    <meta name="description" content="Brew Haven Coffee Co. offers specialty coffee, espresso drinks, and fresh pastries in a cozy atmosphere. Visit us for expertly crafted beverages and warm hospitality.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://abhinavpadige4.github.io/brew-haven-coffee-site/">
+    <meta property="og:title" content="Brew Haven Coffee Co. - Artisan Coffee & Pastries">
+    <meta property="og:description" content="Brew Haven Coffee Co. offers specialty coffee, espresso drinks, and fresh pastries in a cozy atmosphere.">
+    <meta property="og:image" content="assets/images/hero.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://abhinavpadige4.github.io/brew-haven-coffee-site/">
+    <meta property="twitter:title" content="Brew Haven Coffee Co. - Artisan Coffee & Pastries">
+    <meta property="twitter:description" content="Brew Haven Coffee Co. offers specialty coffee, espresso drinks, and fresh pastries in a cozy atmosphere.">
+    <meta property="twitter:image" content="assets/images/hero.jpg">
+    
+    <!-- Schema.org LocalBusiness JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Brew Haven Coffee Co.",
+      "image": [
+        "assets/images/hero.jpg"
+       ],
+      "@id": "",
+      "url": "https://abhinavpadige4.github.io/brew-haven-coffee-site/",
+      "telephone": "+1-555-0123",
+      "priceRange": "$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Coffee Street",
+        "addressLocality": "Seattle",
+        "postalCode": "98101",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "47.6062",
+        "longitude": "-122.3321"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "07:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "08:00",
+          "closes": "17:00"
+        }
+      ],
+      "menu": "https://abhinavpadige4.github.io/brew-haven-coffee-site/#menu",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Brew Haven Menu",
+        "itemListElement": [
+          {
+            "@type": "MenuItem",
+            "name": "Espresso",
+            "description": "Rich, full-bodied espresso shot",
+            "offers": {
+              "@type": "Offer",
+              "price": "2.50",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Latte",
+            "description": "Smooth espresso with steamed milk",
+            "offers": {
+              "@type": "Offer",
+              "price": "4.00",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Croissant",
+            "description": "Buttery, flaky pastry",
+            "offers": {
+              "@type": "Offer",
+              "price": "3.50",
+              "priceCurrency": "USD"
+            }
+          }
+        ]
+      }
+    }
+    </script>
+    
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav aria-label="Primary navigation">
+                <div class="logo">
+                    <h1>Brew Haven</h1>
+                </div>
+                <button class="nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+                    <span class="hamburger"></span>
+                </button>
+                <ul class="nav-list" id="primary-navigation" data-visible="false">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#hours">Hours</a></li>
+                    <li><a href="#location">Location</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="section hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Artisan Coffee, Crafted with Care</h2>
+                    <p>Experience the perfect blend of tradition and innovation in every cup</p>
+                    <a href="#menu" class="btn-primary">See Our Menu</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section id="menu" class="section menu">
+            <div class="container">
+                <h2 class="section-title">Our Menu</h2>
+                <div class="menu-grid">
+                    <!-- Espresso Column -->
+                    <div class="menu-column">
+                        <h3>Espresso</h3>
+                        <div class="menu-item">
+                            <img src="assets/images/espresso.jpg" alt="Espresso shot" loading="lazy">
+                            <div class="menu-item-info">
+                                <h4>Espresso</h4>
+                                <p class="price">$2.50</p>
+                                <p class="description">Rich, full-bodied espresso shot with crema</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="assets/images/espresso.jpg" alt="Double espresso" loading="lazy">
+                            <div class="menu-item-info">
+                                <h4>Double Espresso</h4>
+                                <p class="price">$4.00</p>
+                                <p class="description">Double shot for extra energy</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="assets/images/espresso.jpg" alt="Americano" loading="lazy">
+                            <div class="menu-item-info">
+                                <h4>Americano</h4>
+                                <p class="price">$3.00</p>
+                                <p class="description">Espresso with hot water</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Latte Column -->
+                    <div class="menu-column">
+                        <h3>Lattes</h3>
+                        <div class="menu-item">
+                            <img src="assets/images/latte.jpg" alt="Classic latte" loading="lazy">
+                            <div class="menu-item-info">
+                                <h4>Classic Latte</h4>
+                                <p class="price">$4.00</p>
+                                <p class="description">Smooth espresso with steamed milk</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="assets/images/latte.jpg" alt="Vanilla latte" loading="lazy">
+                            <div class="menu-item-info">
+                                <h4>Vanilla Latte</h4>
+                                <p class="price">$4.50</p>
+                                <p class="description">Espresso with vanilla syrup and steamed milk</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="assets/images/latte.jpg" alt="Caramel latte" loading="lazy">
+                            <div class="menu-item-info">
+                                <h4>Caramel Latte</h4>
+                                <p class="price">$4.75</p>
+                                <p class="description">Espresso with caramel syrup and steamed milk</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Pastries Column -->
+                    <div class="menu-column">
+                        <h3>Pastries</h3>
+                        <div class="menu-item">
+                            <img src="assets/images/pastry.jpg" alt="Croissant" loading="lazy">
+                            <div class="menu-item-info">
+                                <h4>Croissant</h4>
+                                <p class="price">$3.50</p>
+                                <p class="description">Buttery, flaky French pastry</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="assets/images/pastry.jpg" alt="Muffin" loading="lazy">
+                            <div class="menu-item-info">
+                                <h4>Blueberry Muffin</h4>
+                                <p class="price">$3.25</p>
+                                <p class="description">Fresh blueberry muffin with streusel topping</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="assets/images/pastry.jpg" alt="Scone" loading="lazy">
+                            <div class="menu-item-info">
+                                <h4>Cinnamon Scone</h4>
+                                <p class="price">$3.75</p>
+                                <p class="description">Warm cinnamon scone with glaze</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hours Section -->
+        <section id="hours" class="section hours">
+            <div class="container">
+                <h2 class="section-title">Hours of Operation</h2>
+                <div class="hours-grid">
+                    <div class="hours-info">
+                        <h3>Visit Us</h3>
+                        <p><strong>Monday - Friday:</strong> 7:00 AM - 6:00 PM</p>
+                        <p><strong>Saturday - Sunday:</strong> 8:00 AM - 5:00 PM</p>
+                        <p><strong>Address:</strong> 123 Coffee Street, Seattle, WA 98101</p>
+                        <p><strong>Phone:</strong> (555) 012-3456</p>
+                    </div>
+                    <div class="hours-map">
+                        <h3>Find Us</h3>
+                        <img src="assets/images/map.png" alt="Map showing Brew Haven Coffee Co. location" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact">
+            <div class="container">
+                <h2 class="section-title">Get in Touch</h2>
+                <form id="contact-form" aria-label="Contact form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required aria-required="true">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label
